@@ -22,13 +22,21 @@ WeatherData["Cape Town", "WindSpeed"]
 
 `IconData` includes some cool weather icons which will be helpful in building this dashboard.
 
-![Icon Data](images/Icons.png)
+![Icon Data](images/icondata.png)
 
 ---task---
 Try getting the temperature data and icon for your capital city
 
 ```
-IconData["AirTemperature",
-    WeatherData["London", "Temperature"]]
+IconData["AirTemperature", WeatherData["London", "Temperature"]]
+```
+```
+IconData["WindDirection", WeatherData["London", "WindDirection"]]
+```
+```
+IconData["RelativeHumidity", WeatherData["London", "Humidity"]]
+```
+```
+IconData["WindSpeed", WeatherData["London", "WindSpeed"]]
 ```
 ---/task---
