@@ -26,7 +26,7 @@ weatherDashboard[location_] :=
   
 Now we can run weatherDashboard with any city simply by evaluating both the function above, and then calling the function with a specific location. You will need to use the Freeform Entry box as described in the "Exploring Weather Data" step.
 
-![Final Interface](images/Cairo.png)
+![Final Interface](images/SF.png)
   
 --- task ---
 Call the weatherDashboard function with a few different cities.

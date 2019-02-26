@@ -60,7 +60,7 @@ Grid[{
 
 We also want to put a frame around the icons, so the dashboard looks more cohesive. We can do this by putting a `Framed` function around the code we have for the Grid.
 
-![Framed](images/FramedBasic.png)
+![Framed](images/HanoiFramed.png)
 
 Why don't we try experimenting with the features for the frame? We could make the corners rounder using `RoundingRadius`, increase the white space between the icons and the frame using `FrameMargins`, and change the color and weight of the frame using `FrameStyle`.
 
@@ -80,5 +80,6 @@ Framed[
   RoundingRadius -> 40, FrameMargins -> 20, FrameStyle -> {Thick, Gray}]
  ```
 
---- /task ---
+![Framed](images/Hanoi_Fancy_Frame.png)
 
+--- /task ---
