@@ -1,6 +1,6 @@
-## Weather Data Dashboard
+## Weather data dashboard
 
-In this project, you'll use the Wolfram Language to create a weather dashboard, showing the Temperature, Humidity, Wind Speed and Wind Direction for a specific city.
+In this project, you will use the Wolfram Language to create a weather dashboard, showing the temperature, humidity, wind speed, and wind direction for a specific city.
 
 ### What you will make
 
@@ -16,7 +16,7 @@ title: What you will need
 
 ### Software
 
-+ Wolfram Language — this is available for free on the Raspberry Pi as part of NOOBS
++ Wolfram Language, available for free on the Raspberry Pi as part of the official operating system, Raspbian
 
 --- /collapse ---
 
@@ -25,9 +25,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Manipulating Weather Data in the Wolfram Language
-+ Using Freefrom Lingustic Input in the Wolfram Language
-+ Creating functions in the Wolfram Language
++ How to manipulate weather data in the Wolfram Language
++ How to use Freefrom Lingustic Input in the Wolfram Language
++ How to create functions in the Wolfram Language
 
 --- /collapse ---
 
