@@ -24,14 +24,14 @@ weatherDashboard[location_] :=
 
 --- /task ---
   
-Now you can run `weatherDashboard` with any city simply by running the function above, and then running the function with a specific location. You will need to use the Freeform Entry box as described in the 'Explore weather data' step.
+Now, you can run `weatherDashboard` with any city simply by running the function above, and then running the function with a specific location. You will need to use the Freeform Entry box as described in the 'Explore weather data' step.
 
 ![Final Interface](images/SF.png)
   
 --- task ---
 Run the `weatherDashboard` function with a few different cities.
 
-You can also use `$GeoLocationCity` to use the location of your own computer as the city.
+You can also use `$GeoLocationCity` to set the location of your own computer as the city.
   
 ```
 weatherDashboard[$GeoLocationCity]
