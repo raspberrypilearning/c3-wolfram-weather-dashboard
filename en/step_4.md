@@ -1,13 +1,13 @@
-## Creating a Function
+## Create a function
 
-Now that we have a user friendly dashboard, we can build a more general function, so that we can use any city as a location without having to change it in multiple places.
+Now that you have a nice dashboard, you can build a more general function to find out the weather information for any city, without having to change the code.
 
-In Wolfram, we can define a function using `:=`. A function allows us to build code using `location` as a placeholder for the city we want to create a weather dashboard for. Then we run the weather dashboard function using actual city, for example: `weatherDashboard["London"]`, and every place in the code where we use the parameter `location`, it's replaced with "London".
+In Wolfram, you can use `:=` to define a function. A function means that you can write code that puts the parameter `location` in place of the name of the city you want to see in the weather dashboard. Then, you run the `weatherDashboard` function using the actual name of the city (for example, `weatherDashboard["London"]`), and the function will replace the parameter `location` with the name of the city throughout the code.
 
 --- task ---
-Make a function called `weatherDashboard`, which has a parameter `location`.
+Make a function called `weatherDashboard` with a parameter `location`.
 
-Use `CommonName[location]` to extract the name of your city for the title.
+Use `CommonName[location]` to so that the code will put the name of the city into the title automatically.
 
 ```
 weatherDashboard[location_] :=
@@ -24,18 +24,18 @@ weatherDashboard[location_] :=
 
 --- /task ---
   
-Now we can run weatherDashboard with any city simply by evaluating both the function above, and then calling the function with a specific location. You will need to use the Freeform Entry box as described in the "Exploring Weather Data" step.
+Now you can run `weatherDashboard` with any city simply by running the function above, and then running the function with a specific location. You will need to use the Freeform Entry box as described in the 'Explore weather data' step.
 
 ![Final Interface](images/SF.png)
   
 --- task ---
-Call the weatherDashboard function with a few different cities.
+Run the `weatherDashboard` function with a few different cities.
 
-Use `$GeoLocationCity` to use the location of your own computer as the city.
+You can also use `$GeoLocationCity` to use the location of your own computer as the city.
   
 ```
 weatherDashboard[$GeoLocationCity]
 ```
 --- /task ---
 
-Congratualations, you have created a functioning weather dashboard. You can run it for any city you choose, or for your geolocation.
+Congratulations, you have created a functioning weather dashboard! You can run it for any city you like, or for your geolocation.
