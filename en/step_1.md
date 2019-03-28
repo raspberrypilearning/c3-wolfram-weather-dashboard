@@ -1,6 +1,6 @@
 ## Weather data dashboard
 
-In this project, you will use the Wolfram Language to create a weather dashboard, showing the temperature, humidity, wind speed, and wind direction for a specific city.
+In this project, you will use the Wolfram Language to create a weather dashboard, which will show the temperature, humidity, wind speed, and wind direction for a specific city.
 
 ### What you will make
 
