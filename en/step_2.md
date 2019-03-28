@@ -1,7 +1,7 @@
 ## Explore weather data
 
 --- task ---
-If you have never used the Wolfram Language before, follow [this guide](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica). You will need to look at 'Starting Mathematica' and 'Programming in Mathematica'.
+If you have never used the Wolfram Language before, follow [this guide to get started](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica) and learn to use the tool. Look at the sections **Starting Mathematica** and **Programming in Mathematica**.
 --- /task ---
 
 In this step, you will explore `WeatherData` in Wolfram. 
