@@ -41,7 +41,7 @@ Now follow the examples above to use `WeatherData` to find out the humidity, win
 
 --- hints ---
 --- hint ---
-This code will fetch the weather information for London. If you like, you can find the weather information for another capital city.
+This code will find the weather information for London. If you like, you can find the weather information for another capital city.
 
 ```
 IconData["WindDirection", WeatherData["London", "WindDirection"]]
