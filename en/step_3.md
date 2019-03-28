@@ -25,7 +25,7 @@ Grid[{
 
 ---/task---
 
-Next, you will use `Show` to make all the icons larger. With `Show`, you can put in the size of the image using `ImageSize`.
+Next, you will use `Show` to make all the icons larger. With `Show`, you can use `ImageSize` to put in the size of the image.
 
 To make your output (dashboard) look more balanced, you might want to make the `WindSpeed` and `WindDirection` icons a bit bigger. 
 
@@ -63,7 +63,7 @@ Next, put a frame around the icons, so that the dashboard looks more connected. 
 
 ![Framed](images/HanoiFramed.png)
 
-If you like, you can try different features for the frame. You could make the corners rounder using `RoundingRadius`, put a bigger white space between the icons and the frame using `FrameMargins`, and change the colour and thickness of the frame using `FrameStyle`.
+If you like, you can try different features for the frame. You can use `RoundingRadius` to make the corners rounder, you can use `FrameMargins` to put a bigger white space between the icons and the frame, and you can use `FrameStyle` to change the colour and thickness of the frame.
 
 --- task ---
 
