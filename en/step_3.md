@@ -1,13 +1,14 @@
-## Creating a Weather Dashboard
+## Create a weather dashboard
 
-We have all the information we need to build a dashboard. Now we need to create a function which lets us easily change the location, and design a simple layout.
-In order to customize the layout of the dashboard, we can use the Grid function. Grid allows us to put items into evenly spaced rows and columns. 
+You have all the information you need to build a dashboard. Now, you need to design a simple layout.
+
+You can use the `Grid` function to customise the layout of the dashboard. With `Grid`, you can put items into evenly spaced rows and columns.
 
 ![Grid](images/Grid.png)
 
-We want the four measurements to be displayed in a grid with the temperature and humidity on the left, and the wind speed and direction on the right.
+The four measurements need to be shown in a grid with the temperature and humidity on the left, and the wind speed and wind direction on the right.
 
-That means that we want them to be in the order `{Temperature, WindDirection"},{Humidity, WindSpeed}`.
+That means that they need to be in the order `{Temperature, WindDirection"},{Humidity, WindSpeed}`.
 
 ---task---
 
@@ -24,13 +25,13 @@ Grid[{
 
 ---/task---
 
-Ideally, we want to make all the icons larger. In order to do this, we need to use `Show`. `Show` allows us to specify the size of the image using `ImageSize`.
+Next, you will use `Show` to make all the icons larger. With `Show`, you can use `ImageSize` to put in the size of the image.
 
-In order to make our output look more balanced, we might want to make the `WindSpeed` and `WindDirection` icons a little larger. 
+To make your output (dashboard) look more balanced, you might want to make the `WindSpeed` and `WindDirection` icons a bit bigger. 
 
 --- task ---
 
-Set the `ImageSize` for those icons for `AirTemperature` and `RelativeHumidity` to 150, `WindSpeed` and `WindDirection` to 170.
+Set the `ImageSize` to 150 for the icons for `AirTemperature` and `RelativeHumidity`, and to 170 for `WindSpeed` and `WindDirection`, as in the example below.
 
 ```
 Grid[{
@@ -44,8 +45,8 @@ Grid[{
 --- /task ---
 
 --- task ---
-Add a title to your output by adding another row to the `Grid`. Use `Text` to show the title in text format, and customise the text size and colour using `Style`.
-In order to center the title, you'll need to use `SpanFromLeft` to make the text row span both columns.
+Add a title to your output by adding another row to the `Grid`. Use `Text` to show the title in text format, and use `Style` to choose the size and colour of the text.
+To put the title in the centre of the `Grid`, use `SpanFromLeft` to make the text row run across both columns.
 
 ```
 Grid[{
@@ -58,15 +59,15 @@ Grid[{
 ```
 --- /task ---
 
-We also want to put a frame around the icons, so the dashboard looks more cohesive. We can do this by putting a `Framed` function around the code we have for the Grid.
+Next, put a frame around the icons, so that the dashboard looks more connected. To do this, you can put a `Framed` function around the code you have for the `Grid`.
 
 ![Framed](images/HanoiFramed.png)
 
-Why don't we try experimenting with the features for the frame? We could make the corners rounder using `RoundingRadius`, increase the white space between the icons and the frame using `FrameMargins`, and change the color and weight of the frame using `FrameStyle`.
+If you like, you can try different features for the frame. You can use `RoundingRadius` to make the corners rounder, you can use `FrameMargins` to put a bigger white space between the icons and the frame, and you can use `FrameStyle` to change the colour and thickness of the frame.
 
 --- task ---
 
-Add options to `Framed` to make an attractive output.
+Add options to `Framed` to make a nice output.
 
 ```
 Framed[
