@@ -23,6 +23,8 @@ weatherDashboard[location_] :=
   ```
 
 --- /task ---
+
+Notice that when you were creating the `location` parameter you had to include an underscore (`_`) at the end of the parameter name. Wolfram needs this when you're creating a function parameter, just as a way of marking out the parameter.
   
 Now, you can run `weatherDashboard` with any city simply by running the function above, and then running the function with a specific location. You will need to use the Freeform Entry box as described in the 'Explore weather data' step.
 
