@@ -4,7 +4,7 @@ In this project, you will use the Wolfram Language to create a weather dashboard
 
 ### What you will make
 
-![Complete project](images/complete1.png)
+![Complete project](images/preview.gif)
 
 --- collapse ---
 ---
