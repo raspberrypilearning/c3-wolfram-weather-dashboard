@@ -1,15 +1,17 @@
 ---
 title: Weather dashboard
 hero_image: images/banner.png
-description:
+description: 
 version: 4
 listed: true
 copyedit: true
 last_tested: '2018-12-06'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Explore weather data
 - title: Create a weather dashboard
-  completion: internal
+  completion:
+  - engaged
 - title: Create a function
+  completion:
+  - internal
